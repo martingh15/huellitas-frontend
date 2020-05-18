@@ -1,0 +1,11 @@
+.inicio {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  grid-template-areas: "tarjeta-menu tarjeta-menu";
+}
+
+.inicio .tarjeta-menu .tarjeta img {
+  max-width: 300px !important;
+  border-radius: 6px;
+}

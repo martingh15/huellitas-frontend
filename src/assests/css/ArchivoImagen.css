@@ -1,0 +1,71 @@
+.seccion-archivo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.seccion-archivo .contenedor-input-file {
+    position: relative;
+}
+
+.seccion-archivo .contenedor-input-file input {
+    width: 100%;
+    cursor: pointer;
+}
+
+.seccion-archivo .contenedor-input-trucho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #d4d2d2;
+    border-radius: 6px;
+}
+
+.seccion-archivo .contenedor-input-trucho .imgAddPhoto {
+    margin-left: 5px;
+}
+
+.seccion-archivo .contenedor-input-trucho .texto-archivo {
+    margin: 0;
+    padding-left: 10px;
+    font-size: 14px;
+    width: 200px;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+
+.seccion-archivo .input-file {
+    width: fit-content;
+    height: 50px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+}
+
+.seccion-archivo .label img {
+    margin-left: 5px;
+}
+
+.seccion-archivo label[for="file"] {
+    font-size: 12px;
+    white-space: nowrap;
+    font-weight: 600;
+    color: #fff;
+    background-color: #106BA0;
+    display: flex;
+    transition: all .5s;
+    cursor: pointer;
+    padding: 10px 20px !important;
+    text-transform: uppercase;
+    width: fit-content;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.seccion-archivo .imagen-vacía {
+    width: 100px;
+    height: 80px;
+    margin-left: 30px;
+}

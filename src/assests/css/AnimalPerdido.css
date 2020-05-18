@@ -1,0 +1,91 @@
+.animal-perdido {
+    display: inline-block;
+    max-width: 250px;
+    width: 250px;
+    background-color: white;
+    margin: 15px !important;
+    padding: 0 !important;
+    position: relative;
+}
+
+.animal-perdido .loading {
+    width: 30px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 10;
+    -webkit-animation: spin 2s linear infinite;
+    -moz-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+.animal-perdido .top {
+    background-color: #1579bf;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.animal-perdido .top .imgTop {
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    width: auto;
+    max-width: 250px;
+    height: 200px;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+}
+
+.animal-perdido .top .estado {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-color: red;
+    border-radius: 6px;
+    padding: 2px 11px;
+    color: white;
+    font-weight: bold;
+}
+
+.animal-perdido p {
+    margin-bottom: 3px;
+}
+
+.animal-perdido .detalles-animal {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.animal-perdido .detalles-animal .nombre {
+    display: flex;
+    align-items: center;
+}
+
+.animal-perdido .detalles-animal .nombre p {
+    margin-bottom: -5px;
+    margin-left: 5px;
+}
+
+.animal-perdido .detalles-animal .nombre .tipo-animal {
+    width: 30px;
+    height: auto;
+}
+
+.animal-perdido .detalles-animal .sexo {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.animal-perdido .detalles-animal .sexo img {
+    margin-right: 10px;
+    margin-bottom: 5px;
+    width: 15px;
+    height: auto;
+}
+
+.animal-perdido .tamanio svg {
+    margin: 5px;
+}

@@ -1,0 +1,172 @@
+.animal-editar {
+    width: 90%;
+    position: relative;
+    color: black !important;
+}
+
+.animal-editar input, .animal-editar select, .animal-editar textarea {
+    font-size: 14px;
+    color: black !important;
+}
+
+.animal-editar h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.animal-editar .contenedor-animal {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.animal-editar .columna {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.animal-editar .contenedor-animal .contenedor-fotos {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.animal-editar .contenedor-animal .contenedor-fotos .imagenPrincipal {
+    height: 300px;
+    width: auto;
+    max-width: 450px;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+.animal-editar .contenedor-animal .contenedor-fotos .mini-imagenes {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    height: 80px;
+}
+
+.animal-editar .contenedor-animal .contenedor-fotos .mini-imagenes .mini-imagen {
+    position: relative;
+    width: 100px;
+    height: 80px;
+    max-height: 82px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.animal-editar .contenedor-animal .contenedor-fotos .mini-imagenes .mini-imagen p {
+    margin: 0;
+    font-size: 13px;
+}
+
+.animal-editar .contenedor-animal .contenedor-fotos .mini-imagenes img {
+    width: inherit;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    max-width: 100px;
+    height: 80px;
+    max-height: 80px;
+}
+
+.animal-editar .contenedor-animal .contenedor-fotos .mini-imagenes .imagen-background {
+    width: 100px;
+    height: 80px;
+    max-height: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+.animal-editar .contenedor-particularidades {
+    margin-top: 0;
+    padding-bottom: 30px;
+}
+
+.animal-editar .contenedor-particularidades p {
+    font-weight: bold;
+    font-size: 15px;
+    white-space: normal;
+}
+
+.animal-editar .contenedor-particularidades .ejemplo {
+    font-weight: 100;
+    color: grey;
+}
+
+.animal-editar .contenedor-animal .contenedor-datos {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+}
+
+.animal-editar .contenedor-animal .contenedor-datos .formulario .fila {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+}
+
+.animal-editar .contenedor-animal .contenedor-datos .formulario .fila .form-group:first-child {
+    margin-right: 20px;
+}
+
+.animal-editar .contenedor-multiple .contenedor-valor {
+    display: flex;
+    flex-direction: column;
+}
+
+.animal-editar .contenedor-multiple .contenedor-valor label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    padding: 0;
+}
+
+.animal-editar .contenedor-multiple .contenedor-todos-valores, .animal-editar .contenedor-animal .contenedor-datos .formulario .form-animal {
+    width: 180px;
+    height: 34px;
+}
+
+.animal-editar .contenedor-multiple {
+    margin-top: 0;
+}
+
+.animal-editar .form-animal.fecha label {
+    width: 200px;
+}
+
+.animal-editar .contenedor-multiple .contenedor-todos-valores, .animal-editar .contenedor-animal .contenedor-datos .formulario .form-animal {
+    width: 180px;
+}
+
+.animal-editar .contenedor-animal .contenedor-datos .formulario .form-select {
+    width: 380px;
+}
+
+.animal-editar .contenedor-animal .contenedor-datos .formulario .form-select-zona {
+    width: 320px !important;
+    margin-right: 15px;
+}
+
+.animal-editar .contenedor-animal .contenedor-datos .formulario .form-select-barrio {
+    width: 200px;
+}
+
+.animal-editar .seccion-archivo {
+    margin-right: 30px;
+}
+
+.animal-editar .seccion-archivo, .animal-editar .seccion-archivo .contenedor-input-file {
+    width: 300px;
+}
+
+.animal-editar .boton-guardar {
+    position: absolute;
+    bottom: 10px;
+    right: 50px;
+}

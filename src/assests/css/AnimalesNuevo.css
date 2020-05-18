@@ -1,0 +1,24 @@
+.animales-nuevo form {
+    margin-top: 5px;
+}
+
+.animales-nuevo h2 {
+    text-align: center;
+}
+
+.animales-nuevo .pasos {
+    /*display: flex;*/
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.animales-nuevo .tarjeta-body {
+    width: fit-content;
+    width: 520px;
+    margin-top: 10px;
+}
+
+.animales-nuevo .botones {
+    display: flex;
+}

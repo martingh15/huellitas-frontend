@@ -1,0 +1,25 @@
+.mi-mascota .contenedorImagen {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 12px;
+}
+
+.mi-mascota .form-control {
+    width: 200px;
+    margin-right: 20px;
+}
+
+.mi-mascota .form-control-mascota, .mi-mascota .form-control-select {
+    width: 420px;
+}
+
+.mi-mascota .fila {
+    display: flex;
+    justify-content: center;
+}
+
+.mi-mascota .imagen-vacía {
+    width: 100px;
+    margin-left: 30px;
+}

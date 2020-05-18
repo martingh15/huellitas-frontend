@@ -1,0 +1,37 @@
+.tarjeta-menu {
+    display: inline-block;
+    margin: 15px;
+    height: auto;
+}
+
+.tarjeta-menu .tarjeta {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 6px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .2);
+    max-width: 300px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+
+.tarjeta-menu .tarjeta h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tarjeta-menu .tarjeta p {
+    text-align: justify;
+}
+
+.tarjeta-menu .tarjeta img {
+    margin: 20px 0;
+    max-height: 150px;
+    max-width: 150px;
+    width: auto;
+}

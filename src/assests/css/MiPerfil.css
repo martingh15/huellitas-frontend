@@ -1,0 +1,6 @@
+.mi-perfil {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto;
+    grid-template-areas: "tarjeta-menu tarjeta-menu tarjeta-menu";
+}

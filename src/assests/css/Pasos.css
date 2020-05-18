@@ -1,0 +1,79 @@
+.pasos .checkout-nav {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 25% 25% 25% 25%;
+    grid-template-columns: 25% 25% 25% 25%;
+    position: relative;
+}
+
+.pasos .checkout-nav::after {
+    content: '';
+    background-color: #CCC;
+    position: absolute;
+    width: 100%;
+    top: 14px;
+    height: 3px;
+    left: 0;
+    z-index: 0;
+}
+
+.pasos .checkout-nav .step {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.pasos .checkout-nav .step.active::after, .checkout-nav .step.done::after {
+    content: '';
+    background-color: #000;
+    position: absolute;
+    width: 50%;
+    top: 14px;
+    height: 3px;
+    left: 0;
+    z-index: -1;
+}
+
+.pasos .checkout-nav .step.done::after {
+    width: 100%;
+}
+
+.pasos .checkout-nav .step .bullet {
+    cursor: pointer;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #FFF;
+    background-color: #CCC;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.pasos .checkout-nav .step.active .bullet {
+    background-color: #1579bf;
+    z-index: 10;
+}
+
+.pasos .checkout-nav .step.done .bullet {
+    background-color: #000;
+}
+
+.pasos .checkout-nav .step span {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #CCC;
+}
+
+.pasos .checkout-nav .step.active span {
+    color: #1579bf;
+    font-weight: bold;
+}
+
+.pasos .checkout-nav .step.done span {
+    color: #000;
+}

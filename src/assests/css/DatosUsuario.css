@@ -1,0 +1,7 @@
+.datos-usuario form {
+  width: 400px;
+}
+
+.datos-usuario .botones {
+  display: flex;
+}

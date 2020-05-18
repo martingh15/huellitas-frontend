@@ -1,0 +1,24 @@
+.validar-email {
+    max-width: 400px;
+    min-width: 200px;
+    background-color: white;
+    border-radius: 6px;
+    margin: 0 auto;
+    display: block;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.2);
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.validar-email .tarjeta-body {
+    max-width: 400px;
+    min-width: 200px;
+}
+
+
+.validar-email .texto {
+    padding-bottom: 50px;
+    font-weight: bold;
+    text-align: center;
+}

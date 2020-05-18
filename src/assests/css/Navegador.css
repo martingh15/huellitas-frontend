@@ -1,0 +1,73 @@
+.navegador {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  height: 60px;
+  position: fixed;
+  z-index: 10;
+  width: 100vw;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: #1579bf;
+  align-items: center;
+}
+
+.navegador .logo {
+  height: 30px;
+  width: 30px;
+  margin: 10px 0 10px 30px;
+  cursor: pointer;
+}
+
+.navegador .izquierda {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+}
+
+.navegador .izquierda .itemMenu {
+  margin-left: 20px;
+}
+
+.navegador button, .navegador button:hover, .navegador .btn-primary:not(:disabled):not(.disabled).active:focus, .navegador .btn-primary:not(:disabled):not(.disabled):active:focus, .navegador .show>.btn-primary.dropdown-toggle:focus {
+  box-shadow: none !important;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+.navegador .acordion-ingreso {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.navegador .itemMenu {
+  background: transparent;
+  border: none;
+  color: white;
+  font-weight: bold;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.navegador .itemMenu:hover {
+  text-decoration: none;
+}
+
+.navegador .itemMenu:focus {
+  background-color: transparent;
+}
+
+.navegador .usuario-logueado {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-right: 30px;
+  color: white;
+  font-weight: bold;
+}
+
+.navegador .usuario-logueado .logout {
+  margin-bottom: 0;
+  cursor: pointer;
+}

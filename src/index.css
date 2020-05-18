@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.contenedor {
+  padding-top: 80px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./assests/img/fondo.jpg");
+  height: auto;
+  min-height: 100vh;
+}
+
+.tarjeta-body {
+  background-color: white;
+  border-radius: 6px;
+  margin: 0 auto;
+  display: block;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 0px;
+}
+
+.tarjeta-body h4 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.tarjeta-body .olvide-password {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.tarjeta-body .email-valido {
+  font-size: 12px;
+  color: red;
+}
+
+.tarjeta-body .boton-submit {
+  margin: 0 auto;
+  display: block;
+  margin-top: 20px;
+}
+
+/* Grow */
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  transform: scale(1.1);
+}
+
+/* Rotate */
+
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(-360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(-360deg);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+  }
+}

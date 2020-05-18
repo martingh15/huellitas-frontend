@@ -1,0 +1,31 @@
+.animales-listar {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.animales-listar .no-hay-animales {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px;
+    width: 90%;
+}
+
+.animales-listar .no-hay-animales h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.animales-listar .no-hay-animales button {
+    width: 230px;
+    align-self: flex-end;
+    margin-right: 10px;
+}
+
+.animales-listar .lista {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
